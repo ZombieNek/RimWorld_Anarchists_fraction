@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="AnarchistBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionDef>Anarchists</defaultFactionDef>
+    <chemicalAddictionChance>0.20</chemicalAddictionChance>
+    <invNutrition>3.00</invNutrition>
+    <biocodeWeaponChance>0.5</biocodeWeaponChance>
+    <techHediffsChance>0.05</techHediffsChance>
+    <gearHealthRange>0.7~0.95</gearHealthRange>
+    <initialResistanceRange>20~50</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- ополченец -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>civil_gunner</defName>
+    <label>Ополченец</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <apparelMoney>220~400</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <weaponMoney>200~400</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>      <!-- Мечи, копья, железные топоры -->
+      <li>MedievalRangedBasic</li>     <!-- Арбалеты -->
+      <li>IndustrialGunAdvanced</li>   <!-- Простые пистолеты, дробовики, винтовки -->
+    </weaponTags>
+    <techHediffsMoney>50~150</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineHerbal</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>0~1</initialWillRange>
+  </PawnKindDef>
+
+  <!-- стрелок -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>shooter</defName>
+    <label>Стрелок</label>
+    <combatPower>65</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <apparelMoney>800~1200</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <weaponMoney>600~900</weaponMoney>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>   <!-- Винтовки, дробовики, пистолеты -->
+    </weaponTags>
+    <techHediffsMoney>400~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>WakeUp</thingDef>
+          <countRange>2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>2~5</initialWillRange>
+  </PawnKindDef>
+
+  <!-- медик -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>medic</defName>
+    <label>Санитар</label>
+    <combatPower>70</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <apparelMoney>700~1200</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <weaponMoney>400~700</weaponMoney>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>   <!-- Винтовки, дробовики, пистолеты -->
+    </weaponTags>
+    <techHediffsMoney>400~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>5</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>2~5</initialWillRange>
+  </PawnKindDef>
+
+  <!-- подрывник -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>sapper</defName>
+    <label>подрывник</label>
+    <combatPower>80</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <apparelMoney>1900~2500</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <weaponMoney>400~800</weaponMoney>
+    <weaponTags>
+      <li>Anarchist_Grenade_Tag</li>
+    </weaponTags>
+    <techHediffsMoney>400~600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>1.0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Weapon_GrenadeFrag</thingDef>
+          <countRange>5~10</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>3~6</initialWillRange>
+  </PawnKindDef>
+
+  <!-- пулеметчик -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>machine_gunner</defName>
+    <label>Пулеметчик</label>
+    <combatPower>85</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <apparelMoney>2600~3000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <weaponMoney>1200~1800</weaponMoney>
+    <weaponTags>
+      <li>Anarchist_LMG_Tag</li>
+    </weaponTags>
+    <techHediffsMoney>500~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.5</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>GoJuice</thingDef>
+          <countRange>2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>3~6</initialWillRange>
+  </PawnKindDef>
+
+  <!-- снайпер -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>sniper</defName>
+    <label>Снайпер</label>
+    <combatPower>90</combatPower>
+    <itemQuality>Good</itemQuality>
+    <apparelMoney>1500~2500</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <weaponMoney>2500~3500</weaponMoney>
+    <weaponTags>
+      <li>Anarchist_Sniper_Tag</li>
+    </weaponTags>
+    <techHediffsMoney>400~600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.5</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>GoJuice</thingDef>
+          <countRange>2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>3~6</initialWillRange>
+  </PawnKindDef>
+
+  <!-- штурмовик -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>stormtrooper</defName>
+    <label>Штурмовик</label>
+    <combatPower>110</combatPower>
+    <itemQuality>Good</itemQuality>
+    <apparelMoney>2500~3500</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>SpacerMilitary</li>
+    </apparelTags>
+    <weaponMoney>1100~1800</weaponMoney>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <techHediffsMoney>800~1200</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.3</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>GoJuice</thingDef>
+          <countRange>2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>5~8</initialWillRange>
+  </PawnKindDef>
+
+  <!-- командир -->
+  <PawnKindDef ParentName="AnarchistBase">
+    <defName>commander</defName>
+    <label>Командир</label>
+    <combatPower>150</combatPower>
+    <itemQuality>Excellent</itemQuality>
+    <apparelMoney>3500~4000</apparelMoney>
+    <apparelTags>
+      <li>SpacerMilitary</li>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <weaponMoney>3500~5000</weaponMoney>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <techHediffsMoney>800~1200</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineUltratech</thingDef>
+          <countRange>3</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>8~12</initialWillRange>
+    <factionLeader>true</factionLeader>
+  </PawnKindDef>
+
+</Defs>
