@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Ополченец -->
+    <civil_gunner.label>Militia</civil_gunner.label>
+
+    <!-- Стрелок -->
+    <shooter.label>Shooter</shooter.label>
+
+    <!-- Медик -->
+    <medic.label>Medic</medic.label>
+
+    <!-- Подрывник -->
+    <sapper.label>Sapper</sapper.label>
+
+    <!-- Пулеметчик -->
+    <machine_gunner.label>Machine Gunner</machine_gunner.label>
+
+    <!-- Снайпер -->
+    <sniper.label>Sniper</sniper.label>
+
+    <!-- Штурмовик -->
+    <stormtrooper.label>Stormtrooper</stormtrooper.label>
+
+    <!-- Командир -->
+    <commander.label>Commander</commander.label>
+</LanguageData>

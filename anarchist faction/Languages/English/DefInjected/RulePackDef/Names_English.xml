@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Название фракции -->
+    <AnarchistsFractionNames.rulePack.rulesStrings.0>name->Anarchists</AnarchistsFractionNames.rulePack.rulesStrings.0>
+
+    <!-- Названия поселений -->
+    <AnarchistsSettlementNames.rulePack.rulesStrings.0>name->White Commune</AnarchistsSettlementNames.rulePack.rulesStrings.0>
+    <AnarchistsSettlementNames.rulePack.rulesStrings.1>name->Red Commune</AnarchistsSettlementNames.rulePack.rulesStrings.1>
+    <AnarchistsSettlementNames.rulePack.rulesStrings.2>name->Green Commune</AnarchistsSettlementNames.rulePack.rulesStrings.2>
+    <AnarchistsSettlementNames.rulePack.rulesStrings.3>name->Zhukovskaya Volnitsa</AnarchistsSettlementNames.rulePack.rulesStrings.3>
+    <AnarchistsSettlementNames.rulePack.rulesStrings.4>name->Mushroom Volnitsa</AnarchistsSettlementNames.rulePack.rulesStrings.4>
+</LanguageData>
