@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RulePackDef>
+        <defName>AnarchistsSettlementNames</defName>
+        <rulePack>
+            <rulesStrings>
+              <li>name->Коммуна Белая</li>
+              <li>name->Коммуна Красная</li>
+              <li>name->Коммуна Зеленая</li>
+              <li>name->Жуковская вольница</li>
+              <li>name->Грибная вольница</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+</Defs>

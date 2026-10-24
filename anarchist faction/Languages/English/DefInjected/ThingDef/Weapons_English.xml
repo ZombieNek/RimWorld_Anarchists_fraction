@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Автоматический пистолет -->
+    <Anarchy_Gun_Autopistol.label>makeshift autopistol</Anarchy_Gun_Autopistol.label>
+    <Anarchy_Gun_Autopistol.description>An ancient autopistol repaired on the knee, with a suppressor and sight attached. Used for silent assassinations and subversive activities. Weak and ineffective, but cheap.</Anarchy_Gun_Autopistol.description>
+
+    <!-- Пистолет-пулемет -->
+    <Anarchy_Gun_MachinePistol.label>anarchist machine pistol</Anarchy_Gun_MachinePistol.label>
+    <Anarchy_Gun_MachinePistol.description>A crudely modified machine pistol. A close-combat weapon, a stock was welded on and an extended magazine added.</Anarchy_Gun_MachinePistol.description>
+
+    <!-- Болтовая винтовка -->
+    <Anarchy_Gun_BoltActionRifle.label>anarchist bolt-action rifle</Anarchy_Gun_BoltActionRifle.label>
+    <Anarchy_Gun_BoltActionRifle.description>A rifle modified by anarchists. They increased the magazine while keeping the original design and its lethality. An excellent weapon for hunting animals... And Imperials.</Anarchy_Gun_BoltActionRifle.description>
+
+    <!-- Помповый дробовик -->
+    <Anarchy_Gun_PumpShotgun.label>worn pump shotgun</Anarchy_Gun_PumpShotgun.label>
+    <Anarchy_Gun_PumpShotgun.description>An old, slightly rotten shotgun that fires a stream of pellets. Deadly, but with short range.</Anarchy_Gun_PumpShotgun.description>
+
+    <!-- Автоматический дробовик -->
+    <Anarchy_Gun_ChainShotgun.label>anarchist chain shotgun</Anarchy_Gun_ChainShotgun.label>
+    <Anarchy_Gun_ChainShotgun.description>A fully automatic, magazine-fed shotgun. The magazine was crudely enlarged, further increasing its rate of fire.</Anarchy_Gun_ChainShotgun.description>
+
+    <!-- Большой пистолет-пулемет -->
+    <Anarchy_Gun_HeavySMG.label>anarchist heavy SMG</Anarchy_Gun_HeavySMG.label>
+    <Anarchy_Gun_HeavySMG.description>A compact heavy SMG. The stock and grip have been replaced with wooden ones, and the magazine has been enlarged.</Anarchy_Gun_HeavySMG.description>
+
+    <!-- Легкий пулемет -->
+    <Anarchy_Gun_LMG.label>anarchist light machine gun</Anarchy_Gun_LMG.label>
+    <Anarchy_Gun_LMG.description>An anarchist light machine gun with an attached sight. Capable of suppressing the enemy with even greater accuracy.</Anarchy_Gun_LMG.description>
+
+    <!-- Штурмовая винтовка -->
+    <Anarchy_Gun_AssaultRifle.label>assault rifle</Anarchy_Gun_AssaultRifle.label>
+    <Anarchy_Gun_AssaultRifle.description>An assault rifle equipped with a sight, with the stock and grip replaced by wooden ones. More accurate, but also heavier.</Anarchy_Gun_AssaultRifle.description>
+
+    <!-- Снайперская винтовка -->
+    <Anarchy_Gun_SniperRifle.label>anarchist sniper rifle</Anarchy_Gun_SniperRifle.label>
+    <Anarchy_Gun_SniperRifle.description>A sniper rifle with a slightly misaligned scope, but a lightened stock. It fires less accurately, but weighs less.</Anarchy_Gun_SniperRifle.description>
+
+    <!-- Миниган -->
+    <Anarchy_Gun_Minigun.label>anarchist minigun</Anarchy_Gun_Minigun.label>
+    <Anarchy_Gun_Minigun.description>A rapid-fire machine gun with a large ammo box attached... And a flag. At least it's stylish.</Anarchy_Gun_Minigun.description>
+</LanguageData>

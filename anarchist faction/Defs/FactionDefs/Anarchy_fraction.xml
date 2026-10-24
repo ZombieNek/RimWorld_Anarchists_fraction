@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<FactionDef ParentName="FactionBase">
+  <defName>Anarchists</defName>
+  <label>Анархисты</label>
+  <description>Созданные отколовшимися от империи военными комунны анархистов, желающих уничтожить все государства на территории планеты
+  и обратить их в свою идиологию. От каждого по возможностям, каждому по потребностям. Вот их дивиз.</description>
+  <pawnSingular>Анархист</pawnSingular>
+  <pawnsPlural>Анархисты</pawnsPlural>
+  <requiredCountAtGameStart>1</requiredCountAtGameStart>
+  <factionNameMaker>AnarchistsFractionNames</factionNameMaker>
+  <settlementNameMaker>AnarchistsSettlementNames</settlementNameMaker>
+  <factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+  <canStageAttacks>true</canStageAttacks>
+
+  <arrivalLayerWhitelist>
+    <li>Surface</li>
+  </arrivalLayerWhitelist>
+
+  <colorSpectrum>
+    <li>(0.94, 0.15, 0.15)</li>
+  </colorSpectrum>
+
+  <raidCommonalityFromPointsCurve>
+    <points>
+      <li>(500,  1)</li>
+      <li>(700,  1.5)</li>
+      <li>(1000, 1.8)</li>
+      <li>(2000, 2.2)</li>
+      <li>(3000, 2.6)</li>
+    </points>
+  </raidCommonalityFromPointsCurve>
+
+  <backstoryFilters>
+    <li>
+        <categories>
+            <li>Pirate</li>
+            <li>Civil</li>
+        </categories>
+    </li>
+  </backstoryFilters>
+
+  <raidLootValueFromPointsCurve>
+    <points>
+      <li>(35,     8)</li>
+      <li>(100,   60)</li>
+      <li>(1000, 250)</li>
+      <li>(2000, 500)</li>
+      <li>(4000, 700)</li>
+    </points>
+  </raidLootValueFromPointsCurve>
+
+  <humanlikeFaction>true</humanlikeFaction>
+  <hidden>false</hidden>
+  <autoFlee>true</autoFlee>
+  <canUseAvoidGrid>true</canUseAvoidGrid>
+  <techLevel>Spacer</techLevel>
+  <earliestRaidDays>10</earliestRaidDays>
+  <permanentEnemy>true</permanentEnemy>
+  <hostileToFactionlessHumanlikes>false</hostileToFactionlessHumanlikes>
+
+  <maxPawnCostPerTotalPointsCurve>
+    <points>
+      <li>(500,75)</li>
+      <li>(700,100)</li>
+      <li>(2000,120)</li>
+      <li>(3000,150)</li>
+      <li>(3500,500)</li>
+    </points>
+  </maxPawnCostPerTotalPointsCurve>
+
+  <pawnGroupMakers>
+    <!-- базовый рейд -->
+    <li>
+      <kindDef>Combat</kindDef>
+      <commonality>30</commonality>
+      <options>
+        <civil_gunner>10</civil_gunner>
+        <shooter>5</shooter>
+        <medic>2</medic>
+        <sapper>2</sapper>
+        <machine_gunner>3</machine_gunner>
+        <sniper>2</sniper>
+        <stormtrooper>2</stormtrooper>
+        <commander>1</commander>
+      </options>
+    </li>
+
+    <!-- Разведка -->
+    <li>
+      <kindDef>Combat</kindDef>
+      <commonality>16</commonality>
+      <options>
+        <shooter>5</shooter>
+        <medic>2</medic>
+        <machine_gunner>1</machine_gunner>
+        <sniper>3</sniper>
+      </options>
+    </li>
+
+    <!-- Штурм -->
+    <li>
+      <kindDef>Combat</kindDef>
+      <commonality>16</commonality>
+      <options>
+        <shooter>5</shooter>
+        <medic>2</medic>
+        <sapper>3</sapper>
+        <machine_gunner>3</machine_gunner>
+        <sniper>1</sniper>
+        <stormtrooper>3</stormtrooper>
+        <commander>1</commander>
+      </options>
+    </li>
+
+    <!-- Ополчение -->
+    <li>
+      <kindDef>Combat</kindDef>
+      <commonality>20</commonality>
+      <options>
+        <civil_gunner>15</civil_gunner>
+        <shooter>3</shooter>
+        <medic>2</medic>
+        <machine_gunner>1</machine_gunner>
+        <sniper>1</sniper>
+        <commander>1</commander>
+      </options>
+    </li>
+
+    <!-- подавление -->
+    <li>
+      <kindDef>Combat</kindDef>
+      <commonality>16</commonality>
+      <options>
+        <civil_gunner>10</civil_gunner>
+        <shooter>5</shooter>
+        <medic>2</medic>
+        <sapper>4</sapper>
+        <machine_gunner>3</machine_gunner>
+        <stormtrooper>3</stormtrooper>
+        <commander>1</commander>
+      </options>
+    </li>
+
+  </pawnGroupMakers>
+
+  <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  <allowedArrivalTemperatureRange>-40~60</allowedArrivalTemperatureRange>
+  <maxConfigurableAtWorldCreation>15</maxConfigurableAtWorldCreation>
+  <configurationListOrderPriority>10</configurationListOrderPriority>
+
+  <!--идиология-->
+  <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+  </requiredMemes>
+
+</FactionDef>
+</Defs>
