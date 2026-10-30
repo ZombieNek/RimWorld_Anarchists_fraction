@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThinkTreeDef>
+    <defName>AnarchistBreachBehavior</defName>
+    <insertTag>Humanlike_PreMain</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="AnarchistMod.JobGiver_AnarchistBreach" />
+  </ThinkTreeDef>
+</Defs>

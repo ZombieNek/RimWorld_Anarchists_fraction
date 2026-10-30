@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>Anarchist_BreachWall</defName>
+    <driverClass>AnarchistMod.JobDriver_BreachWall</driverClass>
+    <reportString>взрывает TargetA</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+</Defs>

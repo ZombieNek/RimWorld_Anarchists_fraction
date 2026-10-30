@@ -1,0 +1,23 @@
+<Project Sdk="Zlepper.RimWorld.ModSdk/0.0.9">
+    <PropertyGroup>
+        <!-- Имя твоего мода (оно будет в About.xml) -->
+        <RimWorldModName>anarchist faction</RimWorldModName>
+        
+        <!-- Твой уникальный ID -->
+        <RimWorldPackageId>anarchist faction</RimWorldPackageId>
+        
+        <!-- ЭТА СТРОЧКА ГОВОРИТ SDK: "Клади файлы прямо сюда, где лежит сам проект" -->
+        <RimWorldModFolder>.</RimWorldModFolder>
+
+        <Authors>ZombieNek</Authors>
+        <TargetFramework>net472</TargetFramework>
+        
+        <Name>Имперцы - анархисты</Name>
+        <Description>Этот мод добавляет в RimWorld новую враждебную фракцию — Имперцы-Анархисты.</Description>
+    </PropertyGroup>
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\HarmonyMod\1.6\Assemblies\0Harmony.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>

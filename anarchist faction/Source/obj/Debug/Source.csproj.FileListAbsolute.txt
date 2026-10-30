@@ -1,0 +1,19 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Mods\ZombieNek.CustomReders\1.6\Assemblies\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Mods\ZombieNek.CustomReders\1.6\Assemblies\Source.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Source\obj\Debug\Source.csproj.Up2Date
+C:\Users\pomni\OneDrive\Рабочий стол\anarchist faction\Source\obj\Debug\Source.csproj.AssemblyReference.cache
+C:\Users\pomni\OneDrive\Рабочий стол\anarchist faction\Source\obj\Debug\Source.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pomni\OneDrive\Рабочий стол\anarchist faction\Source\obj\Debug\Source.AssemblyInfoInputs.cache
+C:\Users\pomni\OneDrive\Рабочий стол\anarchist faction\Source\obj\Debug\Source.AssemblyInfo.cs
+C:\Users\pomni\OneDrive\Рабочий стол\anarchist faction\Source\obj\Debug\Source.csproj.CoreCompileInputs.cache
+C:\Users\pomni\OneDrive\Рабочий стол\anarchist faction\Source\obj\Debug\Source.dll
+C:\Users\pomni\OneDrive\Рабочий стол\anarchist faction\Source\obj\Debug\Source.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Mods\anarchist faction\1.6\Assemblies\Source.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\anarchist faction\Mods\anarchist faction\1.6\Assemblies\Source.pdb
