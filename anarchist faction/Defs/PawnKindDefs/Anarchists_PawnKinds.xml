@@ -6,12 +6,12 @@
     <defaultFactionDef>Anarchists</defaultFactionDef>
     <chemicalAddictionChance>0.20</chemicalAddictionChance>
     <invNutrition>3.00</invNutrition>
-    <biocodeWeaponChance>0.5</biocodeWeaponChance>
+    <biocodeWeaponChance>0.9</biocodeWeaponChance>
     <techHediffsChance>0.05</techHediffsChance>
     <gearHealthRange>0.7~0.95</gearHealthRange>
     <initialResistanceRange>20~50</initialResistanceRange>
+    <initialWillRange>8~15</initialWillRange>
   </PawnKindDef>
-
   <!-- ополченец -->
   <PawnKindDef ParentName="AnarchistBase">
     <defName>civil_gunner</defName>
@@ -48,7 +48,7 @@
   <PawnKindDef ParentName="AnarchistBase">
     <defName>shooter</defName>
     <label>Стрелок</label>
-    <combatPower>65</combatPower>
+    <combatPower>75</combatPower>
     <itemQuality>Normal</itemQuality>
     <apparelMoney>800~1200</apparelMoney>
     <apparelTags>

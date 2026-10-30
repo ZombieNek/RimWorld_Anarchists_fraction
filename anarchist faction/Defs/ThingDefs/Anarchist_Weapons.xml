@@ -17,13 +17,17 @@
     </recipeMaker>
     <smeltable>false</smeltable>
     <destroyOnDrop>false</destroyOnDrop>
+    <tradeability>All</tradeability>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
   </ThingDef>
 
   <!--автоматический пистолет-->
   <ThingDef ParentName="AnarchyGunBase">
     <defName>Anarchy_Gun_Autopistol</defName>
     <label>кустарный автоматический пистолет</label>
-    <description>Починеный на коленке пистолет, с наркученым на нег глушителем и прицелом. Использовался для скрытных убийств
+    <description>Починеный на коленке пистолет, с наркученным на него глушителем и прицелом. Использовался для скрытных убийств
     и подрывной деятельности. Слабый и не эффективный, зато дешевый</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Anarchy_Gun_Autopistol</texPath>

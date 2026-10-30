@@ -62,9 +62,9 @@
   <maxPawnCostPerTotalPointsCurve>
     <points>
       <li>(500,75)</li>
-      <li>(700,100)</li>
-      <li>(2000,120)</li>
-      <li>(3000,150)</li>
+      <li>(700,120)</li>
+      <li>(2000,150)</li>
+      <li>(3000,170)</li>
       <li>(3500,500)</li>
     </points>
   </maxPawnCostPerTotalPointsCurve>
